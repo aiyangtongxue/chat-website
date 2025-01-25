@@ -37,12 +37,16 @@ VideoHub/
 
 ## 本地部署
 1. 克隆项目到本地：
-bash
-git clone https://github.com/yourusername/VideoHub.git
+```bash
+git clone git@github.com:aiyangtongxue/VideoHub.git
+```
+2. 部署方式（以下任选其一）：
+   - 直接双击打开 index.html 文件在浏览器中查看
+   - 使用 VSCode 的 Live Server 插件运行（推荐）
+   - 部署到任意 Web 服务器
 
-2. 使用本地服务器运行项目：
-
-3. 在浏览器中访问：`http://localhost:8000`
+## 在线演示
+访问 [VideoHub在线演示](https://aiyangtongxue.github.io/VideoHub)
 
 ## 注意事项
 - 本工具仅供学习交流使用
@@ -70,10 +74,9 @@ git clone https://github.com/yourusername/VideoHub.git
 本项目采用 MIT 许可证，详情请见 [LICENSE](LICENSE) 文件。
 
 ## 联系方式
-- 项目作者：[Your Name]
-- 电子邮件：[your.email@example.com]
-- GitHub：[your-github-profile]
+- 项目作者：aiyangtongxue
+- GitHub：[aiyangtongxue](https://github.com/aiyangtongxue)
 
 ## 致谢
-感谢所有为本项目提供支持和帮助的开发者。# VideoHub
-# VideoHub
+感谢所有为本项目提供支持和帮助的开发者。
+"# VideoHub" 
