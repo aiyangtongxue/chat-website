@@ -1,102 +1,92 @@
-# IObit Unlocker 产品官网
+# 畅聊官网项目
 
-## 项目概述
+一个现代化的软件官网模板，基于 HTML5、CSS3 和原生 JavaScript 开发。支持响应式设计，适配各种设备。
 
-这是一个展示 IObit Unlocker 文件解锁工具的现代化单页面网站。网站采用了深色主题设计，结合了多种现代网页特效和动画，为用户提供流畅的浏览体验。
+## 🌟 特性
 
-## 技术栈
+- 📱 完全响应式设计
+- 🎨 现代化 UI 界面
+- ⚡️ 轻量级，无需框架
+- 🔄 平滑动画效果
+- 🎯 优化的用户体验
+- 📦 易于定制和扩展
 
-- HTML5
-- CSS3
-- JavaScript (原生)
-- GSAP (动画库)
-- Particles.js (粒子效果)
-- Font Awesome (图标库)
+## 🚀 快速开始
 
-## 主要功能特点
+1. 克隆项目
+bash
+git clone https://github.com/your-username/chat-website.git
+cd chat-website、
 
-### 1. 视觉效果
-- 交互式粒子背景效果
-- 故障艺术文字效果 (Glitch Text)
-- 平滑的滚动动画
-- 渐进式元素显示
-- 响应式设计
+2. 使用本地服务器运行项目（例如 VS Code Live Server）
 
-### 2. 页面结构
-- Hero 部分：突出展示产品名称和核心优势
-- 核心功能：展示主要功能特性
-- 高级特性：详细介绍产品的高级功能
-- 使用步骤：图文并茂的使用教程
-- 核心优势：产品优势说明
-- 下载部分：提供产品下载
-- 系统要求：展示兼容性信息
-- 用户评价：展示用户反馈
-- FAQ：常见问题解答
+## 🔧 自定义配置
 
-### 3. 交互特性
-- 滚动进度条显示
-- 图片懒加载
-- 动态下载按钮
-- 交互式 FAQ 展开/收起
-- 悬停效果和动画
+### 颜色主题
+在 `styles/main.css` 中修改根变量：
+css
+:root {
+--primary-color: #1890ff;
+--secondary-color: #722ed1;
+--white: #ffffff;
+--dark: #333333;
+}
 
-## 性能优化
+### 图标
+本项目使用 Remix Icon，你可以在 [Remix Icon](https://remixicon.com/) 网站查找更多图标。
 
-1. 图片优化
-- 使用懒加载技术
-- 添加加载状态显示
+### 内容修改
+- 修改 `index.html` 中的文本内容
+- 在 `features` 部分添加或修改功能特性
+- 自定义下载按钮链接
 
-2. 动画优化
-- 使用 GSAP 实现高性能动画
-- 滚动触发动画
-- 动画防抖处理
+## 📝 项目结构
+chat-website/
+├── index.html # 主页面
+├── styles/
+│ └── main.css # 样式文件
+├── js/
+│ └── main.js # JavaScript 文件
+├── LICENSE # MIT 许可证
+└── README.md # 项目说明文档
 
-3. 响应式设计
-- 适配移动端设备
-- 弹性布局
-- 响应式图片处理
+## 🤝 贡献指南
 
-## 浏览器兼容性
+欢迎提交 Pull Request 或创建 Issue！
 
-支持所有现代浏览器：
-- Chrome
-- Firefox
-- Safari
-- Edge
-- Opera
+1. Fork 项目
+2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
+5. 开启 Pull Request
 
-## 部署要求
+## 📄 开源协议
 
-1. 服务器要求：
-- 支持静态文件托管
-- 支持 HTTPS（推荐）
+本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情
 
-2. 文件结构： 
-project/
-├── index.html
-├── styles.css
-├── script.js
-├── images/
-│ ├── force-mode.png
-│ ├── batch-unlock.png
-│ └── multi-actions.png
-├── particles.js
-├── README.md
-└── IObitUnlocker.exe
+## 🙏 致谢
 
-## 后续优化建议
+- [Remix Icon](https://remixicon.com/) - 图标库
+- [AOS](https://michalsnik.github.io/aos/) - 滚动动画库
 
-1. 性能优化
-- 实现资源预加载
-- 添加资源压缩
-- 使用 CDN 加速
+## 📞 联系方式
 
-2. 功能增强
-- 添加多语言支持
-- 实现暗色/亮色主题切换
-- 添加更多交互动画
+- 项目维护者：aiyangtongxue
+- 邮箱：aike1015@qq.com
+- 项目主页：[https://github.com/aiyangtongxue/chat-website](https://github.com/aiyangtongxue/chat-website)
 
-3. 用户体验
-- 添加加载进度提示
-- 优化移动端触摸体验
-- 增加更多用户反馈途径# IObitUnlocker-Clone
+## ⭐️ 支持项目
+
+如果这个项目对你有帮助，欢迎：
+
+1. 给项目点个 Star ⭐️
+2. 关注项目更新
+3. 分享给更多的人
+
+## 🎯 开发路线图
+
+- [x] 响应式设计
+- [x] 动画效果
+- [ ] 深色模式
+- [ ] 多语言支持
+- [ ] 更多主题选项
