@@ -20,9 +20,10 @@ cd chat-website、
 
 2. 使用本地服务器运行项目（例如 VS Code Live Server）
 
-
-
-图片/tp.png
+网站截图
+<p align="center">
+  <img src="/tp.png" alt="项目结构" width="300">
+</p>
 ## 🔧 自定义配置
 
 ### 颜色主题
