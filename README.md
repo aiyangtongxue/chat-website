@@ -22,7 +22,7 @@ cd chat-website、
 
 网站截图
 <p align="center">
-  <img src="/tp.png" alt="项目结构" width="300">
+  <img src="/tp.png" alt="项目结构" width="900">
 </p>
 ## 🔧 自定义配置
 
