@@ -20,6 +20,9 @@ cd chat-website、
 
 2. 使用本地服务器运行项目（例如 VS Code Live Server）
 
+
+
+图片/tp.png
 ## 🔧 自定义配置
 
 ### 颜色主题
